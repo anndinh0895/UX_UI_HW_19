@@ -113,11 +113,6 @@ h4 {
   top: 1611px;
 }
 
-.greenville:hover {
-    color: #5899C5; 
-    transform: scale(1.2);
-    text-shadow: 2px 2px 3px black;
-}
 
 .knox {
   font-size: 30px;
@@ -126,11 +121,6 @@ h4 {
   top: 1591px;
 }
 
-.knox:hover {
-    color: #5899C5; 
-    transform: scale(1.2);
-    text-shadow: 2px 2px 3px black;
-}
 
 .oaklawn {
   font-size: 30px;
@@ -139,23 +129,12 @@ h4 {
   top: 1619px;
 }
 
-.oaklawn:hover {
-    color: #5899C5; 
-    transform: scale(1.2);
-    text-shadow: 2px 2px 3px black;
-}
 
 .bishop {
   font-size: 30px;
   position: absolute;
   left: 290px;
   top: 1846px;
-}
-
-.bishop:hover {
-    color: #5899C5; 
-    transform: scale(1.2);
-    text-shadow: 2px 2px 3px black;
 }
 
 .aboutMenu {
