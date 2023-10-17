@@ -1,0 +1,224 @@
+
+/* navigation */
+header.navigation {
+    background-color: #4A4A4A;
+    color: #ffffff;
+    width: 1240px;
+    height: 73px;
+    position: fixed;
+    overflow: hidden;
+}
+
+div.inline-block.logo {
+    width: 139px;
+    height: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav.inline-block {
+    font-family: Poly;
+    font-size: 20px;
+    text-align: left;
+    float: right;
+    padding: 25px 20px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+
+/* visited link */
+a:visited {
+    color: #C3C3C3;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #D3D3D3;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+    text-decoration: none;
+  }
+
+/* body */
+h1 {
+  font-family: 'Urbanist';
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+h4 {
+  font-family: 'Urbanist';
+  text-transform: uppercase;
+  color: #6D6E70;
+  font-size: 24px;
+}
+
+.about {
+  text-align: center;
+  padding: 50px;
+}
+
+.about p {
+  font-family: 'Poly';
+  font-size: 20px;
+}
+
+.igFeed {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(100px, 1240px));
+  justify-content: center;
+  grid-gap: 20px;
+}
+
+.igFeed img {
+  width: 294px;
+  height: 294px;
+}
+
+.locations a{
+  color: #000;
+  text-transform: uppercase;
+  font-family: 'urbanist';
+  font-weight: 900;
+}
+
+.locLabel {
+  display: flex;
+  width: 780px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.locations {
+  text-align: center;
+}
+
+.map {
+  padding: 25px;
+}
+
+.greenville {
+  font-size: 30px;
+  position: absolute;
+  left: 463px;
+  top: 1611px;
+}
+
+.greenville:hover {
+    color: #5899C5; 
+    transform: scale(1.2);
+    text-shadow: 2px 2px 3px black;
+}
+
+.knox {
+  font-size: 30px;
+  position: absolute;
+  left: 401px;
+  top: 1591px;
+}
+
+.knox:hover {
+    color: #5899C5; 
+    transform: scale(1.2);
+    text-shadow: 2px 2px 3px black;
+}
+
+.oaklawn {
+  font-size: 30px;
+  position: absolute;
+  left: 357px;
+  top: 1619px;
+}
+
+.oaklawn:hover {
+    color: #5899C5; 
+    transform: scale(1.2);
+    text-shadow: 2px 2px 3px black;
+}
+
+.bishop {
+  font-size: 30px;
+  position: absolute;
+  left: 290px;
+  top: 1846px;
+}
+
+.bishop:hover {
+    color: #5899C5; 
+    transform: scale(1.2);
+    text-shadow: 2px 2px 3px black;
+}
+
+.aboutMenu {
+  text-align: center;
+}
+
+.aboutMenu a {
+  color: #000;
+  text-transform: uppercase;
+  font-family: 'urbanist';
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: space-between;
+  width: 780px;
+  margin: auto;
+}
+
+.itemDesc {
+  display: flex;
+  justify-content: space-between;
+  width: 780px;
+  margin: auto;
+  font-family: 'Poly';
+  font-size: 14px;
+  font-style: italic;
+  text-align: left;
+}
+
+.bakeryImg {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #4A4A4A;
+    color: white;
+    width: 1240px;
+    height: 180px;
+}
+
+nav.inline-footer {
+  font-family: 'Urbanist';
+  font-size: 20px;
+  width: 780px;
+  text-transform: uppercase;
+  margin: auto;
+  justify-content: space-between;
+  padding: 25px 20px;
+  display: flex;
+}
+
+.social-footer {
+  text-align: center;
+}
+
+.footerDesc {
+  text-align: center;
+  padding: 25px 20px;
+}
